@@ -7,22 +7,32 @@ In this tutorial we will learn how to create Image Slider with indicator in andr
 
 
 Watch Tutorial on -
-[Youtube](https://www.youtube.com/codingwithdev)
+[Youtube](https://youtu.be/68G2qKrfSJw)
+
 
 
 
 This is an android image slider library:
 
+
 allprojects {
     repositories {
-        ...
+       
+       ...
         maven { url 'https://jitpack.io' }
+    
+    
     }
 }
 
+
+
 dependencies {
+	
 	implementation 'com.github.denzcoskun:ImageSlideshow:0.1.0'
+
 }
+
 
 
 
