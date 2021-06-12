@@ -15,22 +15,26 @@ Watch Tutorial on -
 This is an android image slider library:
 
 
-allprojects {
+allprojects
+
+
+{
+
     repositories {
-       
        ...
+       
         maven { url 'https://jitpack.io' }
-    
-    
-    }
-}
+   
+  } }
 
 
 
-dependencies {
-	
+
+
+dependencies 
+{
+
 	implementation 'com.github.denzcoskun:ImageSlideshow:0.1.0'
-
 }
 
 
